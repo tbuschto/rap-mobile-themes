@@ -151,11 +151,7 @@ Button[TOGGLE][FLAT] {
   border: 1px solid #bdbdbd;
   border-radius: 2px;
   padding: 6px 15px;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-image: none;
   animation: none;
   cursor: pointer;
   text-shadow: 0 1px 0 #ffffff;
@@ -167,11 +163,7 @@ Button[ARROW][FLAT] {
   border: 1px solid #bdbdbd;
   border-radius: 2px;
   padding: 10px;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-image: none;
   cursor: pointer;
 }
 
@@ -179,11 +171,7 @@ Button[ARROW]:default,
 Button[PUSH]:default,
 Button[TOGGLE]:default {
   background-color: #416693;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #e2eefc ),
-    to( #d4d4d4 )
-  );
+  background-image: none;
   border: 1px solid #a0b3ca;
 }
 
@@ -201,37 +189,21 @@ Button[TOGGLE]:selected:disabled {
 Button[ARROW]:hover,
 Button[PUSH]:hover,
 Button[TOGGLE]:hover {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #eaeaea ),
-    to( #d5d5d5 )
-  );
+  background-image: none;
 }
 
 Button[ARROW]:pressed,
 Button[PUSH]:pressed,
 Button[TOGGLE]:pressed {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
 }
 
 Button[TOGGLE]:selected {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
 }
 
 Button[TOGGLE]:selected:hover {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
 }
 
 Button[CHECK],
