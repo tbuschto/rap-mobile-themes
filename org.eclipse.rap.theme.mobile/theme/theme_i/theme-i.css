@@ -106,7 +106,7 @@ SystemMessage-DisplayOverlay {
 Composite {
   padding: 0;
   opacity: 1;
-  background-color: #00ff00;
+  background-color: #fff;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -133,7 +133,7 @@ Button {
   spacing: 2px;
   cursor: default;
   animation: none;
-  color: #4a4a4a;
+  color: #0075fe;
   background-color: #ffffff;
   opacity: 1;
   text-shadow: none;
@@ -148,14 +148,10 @@ Button[PUSH][BORDER],
 Button[TOGGLE][BORDER],
 Button[PUSH][FLAT],
 Button[TOGGLE][FLAT] {
-  border: 1px solid #bdbdbd;
+  border: none;
   border-radius: 2px;
   padding: 6px 15px;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-image: none;
   animation: none;
   cursor: pointer;
   text-shadow: 0 1px 0 #ffffff;
@@ -164,7 +160,7 @@ Button[TOGGLE][FLAT] {
 Button[ARROW],
 Button[ARROW][BORDER],
 Button[ARROW][FLAT] {
-  border: 1px solid #bdbdbd;
+  border: none;
   border-radius: 2px;
   padding: 10px;
   background-image: gradient(
@@ -184,7 +180,7 @@ Button[TOGGLE]:default {
     from( #e2eefc ),
     to( #d4d4d4 )
   );
-  border: 1px solid #a0b3ca;
+  border: none;
 }
 
 Button[ARROW]:disabled,
@@ -195,43 +191,40 @@ Button[TOGGLE]:selected:disabled {
   color: #d2d2d2;
   background-image: none;
   background-color: #fafafa;
-  border: 1px solid #d2d2d2;
+  border: none;
 }
 
 Button[ARROW]:hover,
-Button[PUSH]:hover,
+Button[PUSH]:hover {
+  background-image: none;
+  background-color: #dddddd;
+  text-shadow: none;
+}
+
 Button[TOGGLE]:hover {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #eaeaea ),
-    to( #d5d5d5 )
-  );
+  background-image: none;
 }
 
 Button[ARROW]:pressed,
-Button[PUSH]:pressed,
+Button[PUSH]:pressed {
+  background-image: none;
+  background-color: #dddddd;
+  text-shadow: none;
+}
+
 Button[TOGGLE]:pressed {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
 }
 
 Button[TOGGLE]:selected {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
+  background-color: #0075fe;  
+  color: #fff;
+  text-shadow: none;
 }
 
 Button[TOGGLE]:selected:hover {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
 }
 
 Button[CHECK],
@@ -1042,25 +1035,17 @@ TabFolder-ContentContainer {
 }
 
 TabItem {
-  background-color: #ffffff;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-color: #f0f0f0;
+  background-image: none;
   border-top-color: #5882b5;
   border-bottom-color: #5882b5;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: none;
   padding: 6px;
-  margin: 6px 1px 1px 0px;
+  margin: 6px 0px 1px 0px;
 }
 
 TabItem:selected {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
+  background-image: none;
   margin: 3px -1px 0px -2px;
 }
 
@@ -1311,7 +1296,7 @@ ToolBar {
   color: #4a4a4a;
   padding: 0;
   spacing: 0;
-  background-color: #fff;
+  background-color: rgb( 255, 255, 255 );
   background-image: none;
   border: none;
   border-radius: 0;
