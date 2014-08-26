@@ -15,7 +15,7 @@
   color: #4a4a4a;
   background-color: #fff;
   background-image: none;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
 }
 
 *:disabled {
@@ -36,7 +36,7 @@ Widget-ToolTip {
   background-image: none;
   border: none;
   border-radius: 1px;
-  font: 12px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 12px "Helvetica Neue", Arial, sans-serif;
   color: #e0e0e0;
   opacity: 0.9;
   animation: fadeIn 150ms ease-in, fadeOut 150ms ease-in;
@@ -82,7 +82,7 @@ Display {
   rwt-fontlist: 14px 'Segoe UI', Corbel, Calibri, Tahoma, 'Lucida Sans Unicode';
 
   background-image: url( theme_i/display/browser_bg.png );
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
 }
 
 SystemMessage-DisplayOverlay {
@@ -123,7 +123,7 @@ Composite[BORDER] {
 /* Button default theme */
 
 Button {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -163,24 +163,18 @@ Button[ARROW][FLAT] {
   border: none;
   border-radius: 2px;
   padding: 10px;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-image: none;
   cursor: pointer;
 }
 
 Button[ARROW]:default,
 Button[PUSH]:default,
 Button[TOGGLE]:default {
-  background-color: #416693;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #e2eefc ),
-    to( #d4d4d4 )
-  );
+  font: bold 14px "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff;
+  background-image: none;
   border: none;
+  text-shadow: none;
 }
 
 Button[ARROW]:disabled,
@@ -317,7 +311,7 @@ Button-FocusIndicator[CHECK], Button-FocusIndicator[RADIO] {
 
 Combo,
 Combo[BORDER] {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   border: 1px solid #aaaaaa;
@@ -467,7 +461,7 @@ CTabFolder {
 }
 
 CTabItem {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: transparent;
   background-image: none;
@@ -497,7 +491,7 @@ CTabFolder-DropDownButton-Icon:hover {
 /* Group default theme */
 
 Group {
-  font: 10px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 10px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   border: none;
@@ -526,7 +520,7 @@ Group-Label {
 /* Label default theme */
 
 Label {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -564,7 +558,7 @@ Label-SeparatorLine[SHADOW_OUT] {
 /* Link default theme */
 
 Link {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -599,7 +593,7 @@ Link-Hyperlink:hover:disabled {
 /* List default theme */
 
 List {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #ffffff;
   border: none;
   color: #4a4a4a;
@@ -611,7 +605,7 @@ List[BORDER] {
 
 List-Item {
   padding: 5px 10px 5px 10px;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #ffffff;
   color: inherit;
   background-image: none;
@@ -801,9 +795,9 @@ Shell {
 
 Shell[TITLE], Shell[BORDER] {
   background-color: #ffffff;
-  border: 1px solid #6e6e6e;
-  border-radius: 2px;
-  box-shadow: 0 0 4px #ababab;
+  border: 1px solid #8c8c8c;
+  border-radius: 8px;
+  box-shadow: 0 0 4px #8c8c8c;
 }
 
 Shell[BORDER]:inactive, Shell[TITLE]:inactive {
@@ -820,14 +814,14 @@ Shell:maximized, Shell:maximized:inactive {
 Shell-DisplayOverlay {
   animation: fadeIn 200ms linear, fadeOut 400ms ease-out;
   background-image: none;
-  background-color: #808080;
-  opacity: 0.2;
+  background-color: #191919;
+  opacity: 0.5;
 }
 
 /* Shell titlebar */
 
 Shell-Titlebar {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #0080c0;
   background-gradient-color: #0080c0;
   color: #ffffff;
@@ -935,7 +929,7 @@ Shell-CloseButton:inactive:hover {
 /* Spinner default theme */
 
 Spinner {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   border: none;
   border-radius: 0 2px 2px 0;
   color: #4a4a4a;
@@ -1022,7 +1016,7 @@ Spinner-DownButton-Icon:hover {
 /* TabFolder default theme */
 
 TabFolder {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   border: none;
 }
 
@@ -1056,7 +1050,7 @@ TabItem:selected:first {
 /* Table default theme */
 
 Table {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #ffffff;
   background-image: none;
   color: #4a4a4a;
@@ -1068,7 +1062,7 @@ Table[BORDER] {
 }
 
 TableColumn {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #f0f0f0;
   padding: 8px 3px 8px 3px;
   background-image: gradient(
@@ -1233,14 +1227,14 @@ Table-Checkbox:checked:grayed:hover {
 /* Text default theme */
 
 Text {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   border: none;
-  border-radius: 0;
+  border-radius: 5px;
   padding: 5px 10px 5px 10px;
-  color: #4a4a4a;
+  color: #b3b3b3;
   background-repeat: repeat;
   background-position: left top;
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   background-image: none;
   text-shadow: none;
   box-shadow: none;
@@ -1292,7 +1286,7 @@ Text-Cancel-Icon {
 /* ToolBar default theme */
 
 ToolBar {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   padding: 0;
   spacing: 0;
@@ -1359,7 +1353,7 @@ ToolItem-Separator {
 /* Tree default theme */
 
 Tree {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #ffffff;
   border: none;
   color: #4a4a4a;
@@ -1452,7 +1446,7 @@ Tree-RowOverlay:linesvisible:even:selected:unfocused {
 }
 
 TreeColumn {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: inherit;
   background-color: #f0f0f0;
    background-image: gradient(
@@ -1632,7 +1626,7 @@ Scale-Thumb:focused {
 /* DateTime default theme */
 
 DateTime {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   border: none;
   border-radius: 0 2px 2px 0;
   color: #464a4e;
@@ -1708,7 +1702,7 @@ DateTime-Calendar-Navbar {
     from( #416693 ), to( #5882b5 )
   );
   color: white;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   text-shadow: none;
 }
 
@@ -1996,7 +1990,7 @@ ToolTip {
     from( #f8f9ff ),
     to( #f4f4f4 )
   );
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-color: #fcfcfc;
   animation: fadeIn 200ms linear, fadeOut 600ms ease-out;
   box-shadow: 0 0 4px #adadad;
@@ -2016,20 +2010,20 @@ ToolTip-Image[ICON_WARNING] {
 
 ToolTip-Text {
   color: #4a4a4a;
-  font: bold 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: bold 14px "Helvetica Neue", Arial, sans-serif;
   text-shadow: none;
 }
 
 ToolTip-Message {
   color: #4a4a4a;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   text-shadow: none;
 }
 
 /* CCombo default theme */
 
 CCombo {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -2131,7 +2125,7 @@ CCombo-FocusIndicator {
 /* CLabel default theme */
 
 CLabel {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -2205,7 +2199,7 @@ ScrollBar-DownButton[VERTICAL] {
 /* FileUpload default theme */
 
 FileUpload {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px "Helvetica Neue", Arial, sans-serif;
   background-image: gradient(
     linear, left top, left bottom,
     from( #f9f9f9 ),

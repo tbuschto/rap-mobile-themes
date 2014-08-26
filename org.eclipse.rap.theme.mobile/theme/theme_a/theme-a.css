@@ -128,13 +128,12 @@ Button {
   background-repeat: repeat;
   background-position: left top;
   border: none;
-  border-radius: 2px;
   padding: 6px 15px;
   spacing: 2px;
   cursor: default;
   animation: none;
   color: #4a4a4a;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   opacity: 1;
   text-shadow: none;
   box-shadow: none;
@@ -148,13 +147,13 @@ Button[PUSH][BORDER],
 Button[TOGGLE][BORDER],
 Button[PUSH][FLAT],
 Button[TOGGLE][FLAT] {
-  border: 1px solid #bdbdbd;
-  border-radius: 2px;
+  border: none;
   padding: 6px 15px;
   background-image: none;
+  background-color: #c8c8c8;
   animation: none;
   cursor: pointer;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: none;
 }
 
 Button[ARROW],
@@ -196,6 +195,8 @@ Button[ARROW]:pressed,
 Button[PUSH]:pressed,
 Button[TOGGLE]:pressed {
   background-image: none;
+  background-color: #30b5e6;
+  text-shadow: none;
 }
 
 Button[TOGGLE]:selected {
@@ -780,9 +781,9 @@ Shell {
 
 Shell[TITLE], Shell[BORDER] {
   background-color: #ffffff;
-  border: 1px solid #6e6e6e;
+  border: 1px solid #515151;
   border-radius: 2px;
-  box-shadow: 0 0 4px #ababab;
+  box-shadow: 0 4px 4px #515151;
 }
 
 Shell[BORDER]:inactive, Shell[TITLE]:inactive {
@@ -799,8 +800,8 @@ Shell:maximized, Shell:maximized:inactive {
 Shell-DisplayOverlay {
   animation: fadeIn 200ms linear, fadeOut 400ms ease-out;
   background-image: none;
-  background-color: #808080;
-  opacity: 0.2;
+  background-color: #0a0a0a;
+  opacity: 0.5;
 }
 
 /* Shell titlebar */
