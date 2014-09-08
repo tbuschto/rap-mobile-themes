@@ -628,37 +628,6 @@ List-Item:selected:unfocused {
   );
 }
 
-List-Item:even {
-  background-color: #f0f0f0;
-}
-
-List-Item:even:hover {
-  color: #4a4a4a;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #ebebeb ),
-    to( #d5d5d5 )
-  );
-}
-
-List-Item:even:selected {
-  color: #ffffff;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #5882b5 ),
-    to( #416693 )
-  );
-}
-
-List-Item:even:selected:unfocused {
-  color: #ffffff;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #b5b5b5 ),
-    to( #818181 )
-  );
-}
-
 /* Menu default theme */
 
 Menu {
@@ -807,13 +776,13 @@ Shell-DisplayOverlay {
 /* Shell titlebar */
 
 Shell-Titlebar {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
-  background-color: #0080c0;
-  background-gradient-color: #0080c0;
-  color: #ffffff;
+  font: 18px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  background-gradient-color: #ffffff;
+  color: #16ade2;
   background-image: gradient(
     linear, left top, left bottom,
-    from( #416693 ), to( #5882b5 )
+    from( #ffffff ), to( #ffffff )
   );
   padding: 0 10px 0 10px;
   margin: 0px;
@@ -1015,30 +984,18 @@ TabFolder-ContentContainer {
 }
 
 TabItem {
-  background-color: #ffffff;
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #f9f9f9 ),
-    to( #e4e4e4 )
-  );
+  background-color: #f2f2f2;
   border-top-color: #5882b5;
   border-bottom-color: #5882b5;
-  text-shadow: 0 1px 0 #ffffff;
+  text-shadow: none;
   padding: 6px;
-  margin: 6px 1px 1px 0px;
+  margin: 6px 0px 1px 0px;
 }
 
 TabItem:selected {
-  background-image: gradient(
-    linear, left top, left bottom,
-    from( #d5d5d5 ),
-    to( #eaeaea )
-  );
-  margin: 3px -1px 0px -2px;
-}
-
-TabItem:selected:first {
-  margin: 3px -1px 0px 0px;
+  background-image: url( theme_a/tabfolder/selected-tab.png );
+  background-position: center bottom;
+  background-repeat: repeat-x;
 }
 
 /* Table default theme */
