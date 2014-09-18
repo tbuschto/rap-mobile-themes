@@ -106,7 +106,7 @@ SystemMessage-DisplayOverlay {
 Composite {
   padding: 0;
   opacity: 1;
-  background-color: #fff;
+  background-color: #e5e5e5;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -134,7 +134,7 @@ Button {
   cursor: default;
   animation: none;
   color: #0075fe;
-  background-color: #ffffff;
+  background-color: #e5e5e5;
   opacity: 1;
   text-shadow: none;
   box-shadow: none;
@@ -152,6 +152,8 @@ Button[TOGGLE][FLAT] {
   border-radius: 2px;
   padding: 6px 15px;
   background-image: none;
+  background-color: #ffffff;
+  box-shadow: 0 1px 1px #7a7a7a;
   animation: none;
   cursor: pointer;
   text-shadow: 0 1px 0 #ffffff;
@@ -239,40 +241,20 @@ Button-CheckIcon {
   background-image: url( theme_i/button/check-unselected.png );
 }
 
-Button-CheckIcon:hover {
-  background-image: url( theme_i/button/check-unselected-hover.png );
-}
-
 Button-CheckIcon:selected {
   background-image: url( theme_i/button/check-selected.png );
-}
-
-Button-CheckIcon:selected:hover {
-  background-image: url( theme_i/button/check-selected-hover.png );
 }
 
 Button-CheckIcon:selected:grayed {
   background-image: url( theme_i/button/check-grayed.png );
 }
 
-Button-CheckIcon:selected:grayed:hover {
-  background-image: url( theme_i/button/check-grayed-hover.png );
-}
-
 Button-RadioIcon {
   background-image: url( theme_i/button/radio-unselected.png );
 }
 
-Button-RadioIcon:hover {
-  background-image: url( theme_i/button/radio-unselected-hover.png );
-}
-
 Button-RadioIcon:selected {
   background-image: url( theme_i/button/radio-selected.png );
-}
-
-Button-RadioIcon:selected:hover {
-  background-image: url( theme_i/button/radio-selected-hover.png );
 }
 
 Button-ArrowIcon[UP] {
@@ -522,7 +504,6 @@ Group-Label {
 Label {
   font: 14px "Helvetica Neue", Arial, sans-serif;
   color: #4a4a4a;
-  background-color: #ffffff;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -1159,24 +1140,12 @@ Table-Checkbox {
   background-image: url( theme_i/button/check-unselected.png );
 }
 
-Table-Checkbox:hover {
-  background-image: url( theme_i/button/check-unselected-hover.png );
-}
-
 Table-Checkbox:checked {
   background-image: url( theme_i/button/check-selected.png );
 }
 
-Table-Checkbox:checked:hover {
-  background-image: url( theme_i/button/check-selected-hover.png );
-}
-
 Table-Checkbox:checked:grayed {
   background-image: url( theme_i/button/check-grayed.png );
-}
-
-Table-Checkbox:checked:grayed:hover {
-  background-image: url( theme_i/button/check-grayed-hover.png );
 }
 
 /* Text default theme */
@@ -1189,7 +1158,7 @@ Text {
   color: #b3b3b3;
   background-repeat: repeat;
   background-position: left top;
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   background-image: none;
   text-shadow: none;
   box-shadow: none;
@@ -1205,9 +1174,9 @@ Text[MULTI] {
 
 Text[BORDER],
 Text[MULTI][BORDER] {
-  border: 1px solid #aaaaaa;
+  border: none;
   border-radius: 0;
-  box-shadow: inset 0 0 3px #bdbdbd;
+  box-shadow: 0 0 1px #7a7a7a;
 }
 
 Text[BORDER]:focused,
@@ -1456,24 +1425,12 @@ Tree-Checkbox {
   background-image: url( theme_i/button/check-unselected.png );
 }
 
-Tree-Checkbox:hover {
-  background-image: url( theme_i/button/check-unselected-hover.png );
-}
-
 Tree-Checkbox:checked {
   background-image: url( theme_i/button/check-selected.png );
 }
 
-Tree-Checkbox:checked:hover {
-  background-image: url( theme_i/button/check-selected-hover.png );
-}
-
 Tree-Checkbox:checked:grayed {
   background-image: url( theme_i/button/check-grayed.png );
-}
-
-Tree-Checkbox:checked:grayed:hover {
-  background-image: url( theme_i/button/check-grayed-hover.png );
 }
 
 Tree-Indent {

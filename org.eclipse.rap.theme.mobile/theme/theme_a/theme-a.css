@@ -15,7 +15,7 @@
   color: #4a4a4a;
   background-color: #fff;
   background-image: none;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
 }
 
 *:disabled {
@@ -36,7 +36,7 @@ Widget-ToolTip {
   background-image: none;
   border: none;
   border-radius: 1px;
-  font: 12px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 12px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #e0e0e0;
   opacity: 0.9;
   animation: fadeIn 150ms ease-in, fadeOut 150ms ease-in;
@@ -82,7 +82,7 @@ Display {
   rwt-fontlist: 14px 'Segoe UI', Corbel, Calibri, Tahoma, 'Lucida Sans Unicode';
 
   background-image: url( theme_a/display/browser_bg.png );
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
 }
 
 SystemMessage-DisplayOverlay {
@@ -123,7 +123,7 @@ Composite[BORDER] {
 /* Button default theme */
 
 Button {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -225,40 +225,20 @@ Button-CheckIcon {
   background-image: url( theme_a/button/check-unselected.png );
 }
 
-Button-CheckIcon:hover {
-  background-image: url( theme_a/button/check-unselected-hover.png );
-}
-
 Button-CheckIcon:selected {
   background-image: url( theme_a/button/check-selected.png );
-}
-
-Button-CheckIcon:selected:hover {
-  background-image: url( theme_a/button/check-selected-hover.png );
 }
 
 Button-CheckIcon:selected:grayed {
   background-image: url( theme_a/button/check-grayed.png );
 }
 
-Button-CheckIcon:selected:grayed:hover {
-  background-image: url( theme_a/button/check-grayed-hover.png );
-}
-
 Button-RadioIcon {
   background-image: url( theme_a/button/radio-unselected.png );
 }
 
-Button-RadioIcon:hover {
-  background-image: url( theme_a/button/radio-unselected-hover.png );
-}
-
 Button-RadioIcon:selected {
   background-image: url( theme_a/button/radio-selected.png );
-}
-
-Button-RadioIcon:selected:hover {
-  background-image: url( theme_a/button/radio-selected-hover.png );
 }
 
 Button-ArrowIcon[UP] {
@@ -297,7 +277,7 @@ Button-FocusIndicator[CHECK], Button-FocusIndicator[RADIO] {
 
 Combo,
 Combo[BORDER] {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   border: 1px solid #aaaaaa;
@@ -447,7 +427,7 @@ CTabFolder {
 }
 
 CTabItem {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: transparent;
   background-image: none;
@@ -477,7 +457,7 @@ CTabFolder-DropDownButton-Icon:hover {
 /* Group default theme */
 
 Group {
-  font: 10px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 10px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   border: none;
@@ -506,9 +486,8 @@ Group-Label {
 /* Label default theme */
 
 Label {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
-  background-color: #ffffff;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -544,7 +523,7 @@ Label-SeparatorLine[SHADOW_OUT] {
 /* Link default theme */
 
 Link {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -579,7 +558,7 @@ Link-Hyperlink:hover:disabled {
 /* List default theme */
 
 List {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #ffffff;
   border: none;
   color: #4a4a4a;
@@ -591,7 +570,7 @@ List[BORDER] {
 
 List-Item {
   padding: 5px 10px 5px 10px;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #ffffff;
   color: inherit;
   background-image: none;
@@ -776,7 +755,7 @@ Shell-DisplayOverlay {
 /* Shell titlebar */
 
 Shell-Titlebar {
-  font: 18px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 18px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #ffffff;
   background-gradient-color: #ffffff;
   color: #16ade2;
@@ -884,7 +863,7 @@ Shell-CloseButton:inactive:hover {
 /* Spinner default theme */
 
 Spinner {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   border: none;
   border-radius: 0 2px 2px 0;
   color: #4a4a4a;
@@ -971,7 +950,7 @@ Spinner-DownButton-Icon:hover {
 /* TabFolder default theme */
 
 TabFolder {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   border: none;
 }
 
@@ -1001,7 +980,7 @@ TabItem:selected {
 /* Table default theme */
 
 Table {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #ffffff;
   background-image: none;
   color: #4a4a4a;
@@ -1013,7 +992,7 @@ Table[BORDER] {
 }
 
 TableColumn {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #f0f0f0;
   padding: 8px 3px 8px 3px;
   background-image: gradient(
@@ -1155,37 +1134,25 @@ Table-Checkbox {
   background-image: url( theme_a/button/check-unselected.png );
 }
 
-Table-Checkbox:hover {
-  background-image: url( theme_a/button/check-unselected-hover.png );
-}
-
 Table-Checkbox:checked {
   background-image: url( theme_a/button/check-selected.png );
-}
-
-Table-Checkbox:checked:hover {
-  background-image: url( theme_a/button/check-selected-hover.png );
 }
 
 Table-Checkbox:checked:grayed {
   background-image: url( theme_a/button/check-grayed.png );
 }
 
-Table-Checkbox:checked:grayed:hover {
-  background-image: url( theme_a/button/check-grayed-hover.png );
-}
-
 /* Text default theme */
 
 Text {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   border: none;
   border-radius: 0;
   padding: 5px 10px 5px 10px;
   color: #4a4a4a;
   background-repeat: repeat;
   background-position: left top;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   background-image: none;
   text-shadow: none;
   box-shadow: none;
@@ -1201,9 +1168,8 @@ Text[MULTI] {
 
 Text[BORDER],
 Text[MULTI][BORDER] {
-  border: 1px solid #aaaaaa;
+  border: none;
   border-radius: 0;
-  box-shadow: inset 0 0 3px #bdbdbd;
 }
 
 Text[BORDER]:focused,
@@ -1237,7 +1203,7 @@ Text-Cancel-Icon {
 /* ToolBar default theme */
 
 ToolBar {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   padding: 0;
   spacing: 0;
@@ -1304,7 +1270,7 @@ ToolItem-Separator {
 /* Tree default theme */
 
 Tree {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #ffffff;
   border: none;
   color: #4a4a4a;
@@ -1397,7 +1363,7 @@ Tree-RowOverlay:linesvisible:even:selected:unfocused {
 }
 
 TreeColumn {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: inherit;
   background-color: #f0f0f0;
    background-image: gradient(
@@ -1452,24 +1418,12 @@ Tree-Checkbox {
   background-image: url( theme_a/button/check-unselected.png );
 }
 
-Tree-Checkbox:hover {
-  background-image: url( theme_a/button/check-unselected-hover.png );
-}
-
 Tree-Checkbox:checked {
   background-image: url( theme_a/button/check-selected.png );
 }
 
-Tree-Checkbox:checked:hover {
-  background-image: url( theme_a/button/check-selected-hover.png );
-}
-
 Tree-Checkbox:checked:grayed {
   background-image: url( theme_a/button/check-grayed.png );
-}
-
-Tree-Checkbox:checked:grayed:hover {
-  background-image: url( theme_a/button/check-grayed-hover.png );
 }
 
 Tree-Indent {
@@ -1577,7 +1531,7 @@ Scale-Thumb:focused {
 /* DateTime default theme */
 
 DateTime {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   border: none;
   border-radius: 0 2px 2px 0;
   color: #464a4e;
@@ -1653,7 +1607,7 @@ DateTime-Calendar-Navbar {
     from( #416693 ), to( #5882b5 )
   );
   color: white;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   text-shadow: none;
 }
 
@@ -1941,7 +1895,7 @@ ToolTip {
     from( #f8f9ff ),
     to( #f4f4f4 )
   );
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-color: #fcfcfc;
   animation: fadeIn 200ms linear, fadeOut 600ms ease-out;
   box-shadow: 0 0 4px #adadad;
@@ -1961,20 +1915,20 @@ ToolTip-Image[ICON_WARNING] {
 
 ToolTip-Text {
   color: #4a4a4a;
-  font: bold 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: bold 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   text-shadow: none;
 }
 
 ToolTip-Message {
   color: #4a4a4a;
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   text-shadow: none;
 }
 
 /* CCombo default theme */
 
 CCombo {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -2076,7 +2030,7 @@ CCombo-FocusIndicator {
 /* CLabel default theme */
 
 CLabel {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   color: #4a4a4a;
   background-color: #ffffff;
   background-image: none;
@@ -2150,7 +2104,7 @@ ScrollBar-DownButton[VERTICAL] {
 /* FileUpload default theme */
 
 FileUpload {
-  font: 14px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
+  font: 14px Roboto, "Lucida Sans", Verdana, Arial, sans-serif;
   background-image: gradient(
     linear, left top, left bottom,
     from( #f9f9f9 ),
